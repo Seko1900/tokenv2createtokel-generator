@@ -6,7 +6,6 @@ Tokel Tool to make live a bit more easy.
 
 ![alt text](https://github.com/Seko1900/tokenv2createtokel-generator/blob/main/toolks.png)
 
-```
-You can clone this repository and use for example node's http-server on the folder.
-```
+*You can clone this repository and use for example node's http-server on the folder.
+
 ¹https://docs.tokel.io/guides/CreateAToken/#suggested-reading
