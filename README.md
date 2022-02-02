@@ -4,7 +4,7 @@ Tokel tokenv2createtokel generator makes creating a command via CLI easier. It o
 
 Some Tokel Tools to make live a bit more easy.
 
-![alt text](https://github.com/SamanthaLoeve/Toolks/blob/main/toolks.png)
+![alt text](https://github.com/Seko1900/tokenv2createtokel-gernerator/blob/main/toolks.png)
 
 ```
 You can clone this repository and use for example node's http-server on the folder.
