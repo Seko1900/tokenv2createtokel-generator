@@ -1,4 +1,4 @@
-#Tokel tokenv2createtokel Generator
+*Tokel tokenv2createtokel Generator
 
 Tokel tokenv2createtokel generator makes creating a command via CLI easier. It outputs tokenv2createtokel with Tokel standard data and HEX for arbitrary data via the NFT.
 
