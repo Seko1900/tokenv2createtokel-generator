@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Tokel tokenv2createtokel Generator: your knive set for Tokel development</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+    crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <div style="height: 20px;"></div><div>
+      <img width="100px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxlbGxpcHNlIHJ4PSI3Ny4wNTA4IiByeT0iNzYuOTk1NSIgdHJhbnNmb3JtPSJtYXRyaXgoLTAuMzY4OTQ3IDAuOTI5NDUgLTAuOTI5NTY1IC0wLjM2ODY1OSAxMDAgMTAwKSIgZmlsbD0iI0YwRjBGMCIvPgo8ZWxsaXBzZSByeD0iNzQuNTExMiIgcnk9Ijc2LjA3OTMiIHRyYW5zZm9ybT0ibWF0cml4KC0wLjE1MDA3NSAwLjk4ODY3NSAtMC45ODg2ODQgLTAuMTUwMDEyIDEwMS41NTMgOTYuODk1MikiIGZpbGw9IiMxMzE4MkEiLz4KPGVsbGlwc2UgY3g9Ijk5Ljg5OTkiIGN5PSI2OC4yNDExIiByeD0iMTIuNTkyMSIgcnk9IjEyLjU1ODQiIGZpbGw9IiNGMEYwRjAiLz4KPHBhdGggZD0iTTgxLjAxMzMgNzEuMzgwOEwxMTguNzg5IDY1LjEwMTYiIHN0cm9rZT0iI0YwRjBGMCIvPgo8ZWxsaXBzZSBjeD0iMTAxLjQ3NCIgY3k9IjEwNC4zNDciIHJ4PSI0LjcyMjAyIiByeT0iNC43MDk0MSIgZmlsbD0iI0YwRjBGMCIvPgo8ZWxsaXBzZSBjeD0iMTQ1LjU0NiIgY3k9IjcyLjk1MDciIHJ4PSIxLjU3NDAxIiByeT0iMS41Njk4IiBmaWxsPSIjRjBGMEYwIi8+CjxlbGxpcHNlIGN4PSI5Mi4wMjkxIiBjeT0iMTU0LjU4IiByeD0iMS41NzQwMSIgcnk9IjEuNTY5OCIgZmlsbD0iI0YwRjBGMCIvPgo8ZWxsaXBzZSBjeD0iMTM3LjY3NiIgY3k9IjEzNy4zMTIiIHJ4PSI2LjI5NjAzIiByeT0iNi4yNzkyMSIgZmlsbD0iI0YwRjBGMCIvPgo8ZWxsaXBzZSBjeD0iNjMuNTExMiIgY3k9IjEyOC4xMjkiIHJ4PSIzLjE0ODAxIiByeT0iMy4xMzk2MSIgZmlsbD0iI0YwRjBGMCIvPgo8ZWxsaXBzZSBjeD0iNjUuMjcyMyIgY3k9IjgwLjc5OTYiIHJ4PSIzLjE0ODAxIiByeT0iMy4xMzk2MSIgZmlsbD0iI0YwRjBGMCIvPgo8L3N2Zz4K" class="css-1wn19qe-Logo esbo59k0">
+      <h3>&nbsp;Tokel tokenv2createtokel Generator</h3></div>
+      <div style="height: 20px;"></div>
+    </div>
+
+    <div class="container">
+        
+
+        <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon3">Your NFT Name</span>
+        <input type="text" class="form-control" id="tokel_nftname" aria-describedby="basic-addon3">
+        </div>
+
+        <input type="range" class="form-range" data-bs-placement="left" title="NFT total supply" id="tokel_nftsupply" value=1>
+
+        <div class="mb-3">
+            <textarea class="form-control" id="tokel_nftdescription" rows="3" placeholder="your NFT description here"></textarea>
+          </div>
+
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon3">IPFS Image Link</span>
+            <input type="text" class="form-control" id="tokel_nftimage" aria-describedby="basic-addon3">
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon3">Meta ID</span>
+            <input type="text" class="form-control" id="tokel_nftcustomid" aria-describedby="basic-addon3">
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon3">Royalty Rate</span>
+            <input type="text" class="form-control" id="tokel_nftroyalty" aria-describedby="basic-addon3">
+        </div>
+
+        <div class="mb-3">
+            <textarea class="form-control" id="tokel_arbitrary" rows="3" placeholder="your JSON data here"></textarea>
+          </div>
+    
+        <button type="button" id="generate_tkl_str" class="btn btn-dark">Generate Tokel String</button>
+
+        <div class="mb-3">
+            <textarea class="form-control" id="outputstrTokel" rows="3" placeholder=""></textarea>
+        </div>
+ 
+      </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script>
+        function ascii_to_hex(str)
+        {
+            var arr1 = [];
+            for (var n = 0, l = str.length; n < l; n ++) 
+            {
+                var hex = Number(str.charCodeAt(n)).toString(16);
+                arr1.push(hex);
+            }
+            return arr1.join('');
+        }
+
+        $( document ).ready(function() {
+            $("#outputstrTokel").hide();
+            var tklstr;
+
+            var nftname;
+            var nftsupply;
+            var nftdescription;
+            var nftimage;
+            var nftcustomid;
+            var nftroyalty;
+            var nftarbitrary;
+
+            $("#generate_tkl_str").click(function() {
+
+                tklstr = "";
+                /* "NAME" 0.00000001 "DESCRIPTION" "{\"url\":\"URL\", \"id\":1, \"royalty\":10, \"arbitrary\":\"HEX\"}" */
+                nftname = $("#tokel_nftname").val();
+                nftsupply = parseFloat($("#tokel_nftsupply").val()/100000000).toFixed(8);
+                nftdescription = $("#tokel_nftdescription").val();
+                nftimage = $("#tokel_nftimage").val();
+                nftcustomid = $("#tokel_nftcustomid").val();
+                nftroyalty = $("#tokel_nftroyalty").val();
+                nftarbitrary = ascii_to_hex($("#tokel_arbitrary").val().replace(/\s+/g, ''));
+                tklstr = "\"" + nftname + "\" " + nftsupply + " \"" + nftdescription + "\" " + "\"{\\\"url\\\":\\\"" + nftimage + "\\\"," 
+                + "\\\"id\\\":" +nftcustomid + "," + "\\\"royalty\\\":" + nftroyalty + "," + "\\\"arbitrary\\\":\\\"" + nftarbitrary + "\\\"}\"";
+                $("#outputstrTokel").val(tklstr);
+                
+            $("#outputstrTokel").show();
+        })
+});
+
+    </script>
+  </body>
+</html>
